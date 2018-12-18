@@ -12,6 +12,9 @@
 		2C9B714F21B2B2F2002D7D06 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C9B714D21B2B2F2002D7D06 /* Main.storyboard */; };
 		2C9B715121B2B2F2002D7D06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C9B715021B2B2F2002D7D06 /* Assets.xcassets */; };
 		2C9B715421B2B2F3002D7D06 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C9B715221B2B2F3002D7D06 /* LaunchScreen.storyboard */; };
+		2C9B715C21B2C3BC002D7D06 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B715B21B2C3BC002D7D06 /* Story.swift */; };
+		2C9B715E21B2C6A8002D7D06 /* Page.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B715D21B2C6A8002D7D06 /* Page.swift */; };
+		2C9B716021B33918002D7D06 /* PageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9B715F21B33918002D7D06 /* PageController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		2C9B715021B2B2F2002D7D06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C9B715321B2B2F3002D7D06 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C9B715521B2B2F3002D7D06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C9B715B21B2C3BC002D7D06 /* Story.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		2C9B715D21B2C6A8002D7D06 /* Page.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Page.swift; sourceTree = "<group>"; };
+		2C9B715F21B33918002D7D06 /* PageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,9 @@
 				2C9B714B21B2B2F2002D7D06 /* ViewController.swift */,
 				2C9B714D21B2B2F2002D7D06 /* Main.storyboard */,
 				2C9B715021B2B2F2002D7D06 /* Assets.xcassets */,
+				2C9B715B21B2C3BC002D7D06 /* Story.swift */,
+				2C9B715D21B2C6A8002D7D06 /* Page.swift */,
+				2C9B715F21B33918002D7D06 /* PageController.swift */,
 				2C9B715221B2B2F3002D7D06 /* LaunchScreen.storyboard */,
 				2C9B715521B2B2F3002D7D06 /* Info.plist */,
 			);
@@ -138,6 +147,9 @@
 			files = (
 				2C9B714C21B2B2F2002D7D06 /* ViewController.swift in Sources */,
 				2C9B714A21B2B2F2002D7D06 /* AppDelegate.swift in Sources */,
+				2C9B715E21B2C6A8002D7D06 /* Page.swift in Sources */,
+				2C9B715C21B2C3BC002D7D06 /* Story.swift in Sources */,
+				2C9B716021B33918002D7D06 /* PageController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
